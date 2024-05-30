@@ -1,0 +1,89 @@
+.problem-area {
+    border: 1px solid red;
+    width: 600px;
+    height: 500px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.black {
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.gray {
+    color: white;
+    background-color: #3A3A3C;
+    width: 100px;
+    height: 100px;
+}
+
+.p1-mother {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p1-right {
+    display: flex;
+    justify-content: space-between;
+}
+
+.p2-mother1 {
+    display: flex;
+    justify-content: center;
+}
+
+.p2-mother2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.p3-mother1 {
+    display: flex;
+    justify-content: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p4-locate {
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+}
+
+.p5-mother {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.p5-locate1 {
+    position: relative;
+    bottom: 20px;
+}
+
+.p5-locate2 {
+    position: relative;
+    bottom: 22px;
+}
+
+.p5-mother1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.p5-mother2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
